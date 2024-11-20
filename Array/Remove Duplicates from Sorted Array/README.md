@@ -128,3 +128,10 @@ nums = [1, 1, 2, 2, 3]
 
 - **Result**: `3`
 - **Modified Array**: `[1, 2, 3]` (first `l` elements are the unique ones).
+
+# Complexity
+### Time complexity:
+### O(n)
+
+### Space complexity:
+### O(1)
