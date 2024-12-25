@@ -6,6 +6,9 @@
 Pascal’s Triangle is a triangular array of integers where:
 1. The first and last numbers of each row are `1`.
 2. Each number in between is the sum of the two numbers directly above it in the previous row.
+So, while solving, we will place 1 at the 0th and last indices. For the remaining elements, we will use:
+ans[i-1][left] + ans[i-1][right].
+Here, i-1 represents the previous row, and left/right represent the adjacent indices in the previous row.
 
 For example:
 ```
